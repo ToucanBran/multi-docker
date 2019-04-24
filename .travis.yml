@@ -18,8 +18,8 @@ after_success:
 deploy:
         provider: elasticbeanstalk
         region: us-east-2
-        app: Multidocker2
-        env: MultiDocker2-env
+        app: fib-app
+        env: FibApp-env
         bucket_name: elasticbeanstalk-us-east-2-903279931710
         bucket_path: docker-multi
         on:
